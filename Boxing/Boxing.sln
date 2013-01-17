@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THOK.AS.Boxing", "THOK.AS.Boxing\THOK.AS.Boxing.csproj", "{91A48379-0E2D-452A-B216-21F5C3C68207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THOK.AS.Boxing.MCR", "THOK.AS.Boxing.MCB\THOK.AS.Boxing.MCR.csproj", "{4148F882-9C18-473D-9EA0-989D8FE1A71B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "BoxingSetup\Setup.vdproj", "{7678A567-9860-4212-A38A-9A29B13942AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91A48379-0E2D-452A-B216-21F5C3C68207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A48379-0E2D-452A-B216-21F5C3C68207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A48379-0E2D-452A-B216-21F5C3C68207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A48379-0E2D-452A-B216-21F5C3C68207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4148F882-9C18-473D-9EA0-989D8FE1A71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4148F882-9C18-473D-9EA0-989D8FE1A71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4148F882-9C18-473D-9EA0-989D8FE1A71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4148F882-9C18-473D-9EA0-989D8FE1A71B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7678A567-9860-4212-A38A-9A29B13942AF}.Debug|Any CPU.ActiveCfg = Debug
+		{7678A567-9860-4212-A38A-9A29B13942AF}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

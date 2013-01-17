@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Application>
+  <Caption MinBox="true" MaxBox="true"/>
+  <Title Visible="false"/>
+  <MenuBar Width="180"/>
+  <MenuItem Height="22"/>
+
+  <Menus Name="报表查询">
+    <Menu Name="区域卷烟汇总" Type="THOK.AS.Report.View.AreaOrderCrystalForm,THOK.AS.Report.dll"/>
+    <Menu Name="手工补货汇总" Type="THOK.AS.Report.View.AllSupplyCrystalForm,THOK.AS.Report.dll"/>
+    <Menu Name="手工补货明细" Type="THOK.AS.Report.View.SortChannelCrystalForm,THOK.AS.Report.dll"/>
+    <Menu Name="混合烟道汇总" Type="THOK.AS.Report.View.MixChannelCrystalForm,THOK.AS.Report.dll"/>
+    <Menu Name="混合烟道明细" Type="THOK.AS.Report.View.MixChannelDetailsCrystalForm,THOK.AS.Report.dll"/>
+    <Menu Name="缓存烟道盘点" Type="THOK.AS.Report.View.CacheChannelCrystalForm,THOK.AS.Report.dll"/>
+    <Menu Name="备货暂存盘点" Type="THOK.AS.Report.View.StockTempCrystalForm,THOK.AS.Report.dll"/>
+  </Menus>
+  <Menus Name="系统">
+    <Menu Name="参数设置" Type="THOK.AS.Report.View.ParameterForm,THOK.AS.Report.dll"/>
+  </Menus>
+</Application>

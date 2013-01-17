@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Connections>
+  <Connection Name="DefaultConnection" DatabaseType="SQLSERVER">
+    <ConnectionString Value="server=DELL-PC\SQLEXPRESS;database=BoxDB;uid=sa;" />
+    <Password Name="password" Value="65CED0851FFD283F" />
+  </Connection>
+  <Connection Name="ServerConnection" DatabaseType="SQLSERVER">
+    <ConnectionString Value="server=DELL-PC\SQLEXPRESS;database=Logistics;uid=sa;" />
+    <Password Name="password" Value="65CED0851FFD283F" />
+  </Connection>
+</Connections>
